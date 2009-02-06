@@ -19,8 +19,8 @@ BuildArch:      noarch
 
 BuildRequires:  mingw32-filesystem >= 39-3
 BuildRequires:  mingw32-binutils
-#BuildRequires:  mingw32-gcc
-#BuildRequires:  mingw32-runtime
+BuildRequires:  mingw32-gcc
+BuildRequires:  mingw32-runtime
 
 Requires:       mingw32-runtime
 
