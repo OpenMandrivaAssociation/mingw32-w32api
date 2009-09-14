@@ -6,7 +6,7 @@
 
 Name:           mingw32-w32api
 Version:	3.13
-Release:        %mkrel 1
+Release:        %mkrel 2
 Summary:        Win32 header files and stubs
 
 License:        Public Domain
