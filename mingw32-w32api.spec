@@ -55,3 +55,20 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(-,root,root)
 %{_mingw32_includedir}/*
 %{_mingw32_libdir}/*.a
+
+
+%changelog
+* Fri Dec 10 2010 Oden Eriksson <oeriksson@mandriva.com> 3.13-3mdv2011.0
++ Revision: 620360
+- the mass rebuild of 2010.0 packages
+
+* Mon Sep 14 2009 Thierry Vignaud <tv@mandriva.org> 3.13-2mdv2010.0
++ Revision: 439980
+- rebuild
+
+* Fri Feb 06 2009 Jérôme Soyer <saispo@mandriva.org> 3.13-1mdv2009.1
++ Revision: 338085
+- Readd BR
+- import mingw32-w32api
+
+
